@@ -1,7 +1,28 @@
-Your boss has given you the following project to fix for a client. It's supposed to be a simple dice
-game where the objective of the game is to correctly add up the values of the dice for 6 consecutive turns.
+Your boss has given you the following project to fix for a client. It's supposed
+to be a simple dice game, where the object of the game is to correctly add up
+the values of the dice for 6 consecutive turns.
 
-The issue is that a former programmer worked on it and didn't know how to debug effectively. It's now up to
-you to fix the errors and finally make the game playable.
+The issue is that a former programmer worked on it who didn't know how to debug
+effectively. It's now up to you to clean up this code and add tests.
 
-To play the game you must run the main.py file.
+To run the program, type the following in your terminal:
+
+```shell
+python main.py
+``` 
+
+Follow the instructions in the README file to work through fixing the bugs and
+adding test cases.
+
+When you're done, fill out the following:
+
+What bugs/issues did you fix in the code? List as bullet points below.
+  Example: The input for a user asked to play again now is parsed correctly,
+  and if a user's input is invalid it re-prompts the user.
+* 
+
+What tests did you add? List at least three behaviors you are checking for.
+  Example: All dice have values between 1 and 6 (inclusive).
+*  
+# TODO
+- Help mock out a Die
