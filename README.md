@@ -5,7 +5,8 @@ This lab has two functions:
 [Python2](https://docs.python.org/2/library/pdb.html) and
 [Python3](https://docs.python.org/3/library/pdb.html), including some helpful
 tricks to make your debugging sessions a lot less stressful.
-2. 
+2. To practice a couple of ways to use the `unittest` library to build,
+well, unit tests for the debugged code!
 
 Part 1 is adopted from user spside's
 [Debugging Lab](https://github.com/spiside/pdb-tutorial). Part 2 is authored
@@ -765,7 +766,7 @@ little convoluted, so try to look for
 use mocks. However, it's worth making sure you also have some way to test that
 all the pieces are working together without that mock, e.g. an integration test.
 
-## Refactoring and tidying
+### Refactoring and tidying
 
 It's possible that in the process of writing tests for this code, you'll realize
 that there are parts of the code organization that make it hard to test. (For
