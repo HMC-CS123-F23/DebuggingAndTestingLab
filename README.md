@@ -55,7 +55,7 @@ To get started, clone this repo if you haven't already done so following the lab
 instructions.
 
 ```shell
-cd /path/to/pdb-tutorial
+cd /path/to/debugging-testing-lab
 ```
 
 To begin, let's try playing the game to see what's wrong. To run the program,
